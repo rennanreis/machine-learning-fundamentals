@@ -1,0 +1,31 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual Environments
+# Ignoring Conda environment files or folders
+env/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Data (raw data, processed data, etc.)
+data/raw/
+data/processed/
+
+# Ignore environment variables and credentials files
+.env
+*.env

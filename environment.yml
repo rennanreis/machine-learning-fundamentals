@@ -1,0 +1,24 @@
+
+# Define the name of the environment
+name: machine-learning-fundamentals-env   
+
+# Channels to search for packages
+channels:
+  - conda-forge                         # Community-driven channel with additional packages
+  - defaults                             # Default conda channel
+
+# List of dependencies
+dependencies:
+  - python=3.8                           # Python version for the environment
+  - numpy                                # Library for numerical operations and array manipulation
+  - pandas                               # Library for data manipulation and analysis (DataFrames)
+  - matplotlib                           # Library for data visualization (graphs and plots)
+  - scikit-learn                         # Machine learning library with algorithms and utilities
+  - jupyter                              # To run and interact with Jupyter notebooks
+  - nbdime                               # Tool for comparing and merging Jupyter notebooks without conflicts
+  
+  # pip is included for additional packages that may be installed using pip (if necessary)
+  - pip                                   # Package installer for Python packages (when not available via conda)
+  - pip:
+      # Add pip-only packages here if needed, for example:
+      # - some-pip-only-package
