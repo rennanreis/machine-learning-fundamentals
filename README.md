@@ -6,27 +6,67 @@ Welcome to the **Machine Learning Fundamentals** project! This repository is ded
 ## Project Overview
 This project is designed to guide users through the essential concepts of machine learning, starting with basic theory and progressing into hands-on experiments using real-world datasets.
 
-### Current Focus:
-**Article 1: What is Machine Learning?**
-- This article introduces the concept of machine learning (ML), its types, and an initial hands-on experiment using the Iris dataset.
+### Current and Upcoming Articles
+
+1. **What is Machine Learning?** *(current focus)*:
+   - Introduction to ML concepts, types, and a practical experiment using the Iris dataset.
+
+2. **Supervised Learning Fundamentals** *(future content)*:
+   - A deep dive into classification and regression techniques.
+
+3. **Unsupervised Learning Fundamentals** *(future content)*:
+   - Exploration of clustering and dimensionality reduction techniques.
+
+4. **Evaluation Metrics** *(future content)*:
+   - Understanding model evaluation and performance metrics.
+
+5. **Beyond Basics** *(future content)*:
+   - Introduction to deep learning and advanced ML topics.
 
 ## Project Structure
 The project is structured as follows:
 
-- `article-1-what-is-ml/`: Resources for the first article, including data, notebooks, scripts, and results.
-    - `data/`: Datasets used in the experiments.
-        - `raw/`: Original data (not modified).
-        - `processed/`: Processed or cleaned data, ready for analysis.
-    - `notebooks/`: Jupyter notebooks containing the practical implementation of the article's concepts.
-    - `scripts/`: Helper functions for preprocessing and analysis.
+- `article-<n>-<topic>/`: Resources for each article in the series, containing:
+    - `data/`: Datasets used in experiments.
+        - `raw/`: Original datasets.
+        - `processed/`: Preprocessed datasets.
+    - `notebooks/`: Jupyter notebooks with hands-on examples.
+    - `scripts/`: Python scripts for preprocessing and analysis.
+    - `results/`: Outputs and visualizations from the experiments.
     - `article.md`: Full article text ready for publication.
-    - `README.md`: Documentation for this article and its resources.
+    - `README.md`: Documentation specific to the article.
 
-- `results/`: Results of experiments and outputs.
-- `docs/`: Documentation for the project, including the roadmap, strategy, and style guide.
-- `environment.yml`: Defines the global environment for the project.
-- `LICENSE`: License for the project (MIT).
-- `.gitignore`: Files to be ignored by Git (e.g., temporary files, environment directories).
+- `results/`: Consolidated outputs and results from all experiments.
+- `docs/`: All supporting documentation for the project.
+- `environment.yml`: A configuration file for replicating the project environment.
+- `LICENSE`: The project's license (MIT).
+- `.gitignore`: Files and directories to be ignored by Git.
+
+This structure ensures that all resources related to a specific article are organized and easily accessible.
+
+### How Articles and Code Work Together
+
+Each article in the series is paired with dedicated resources in the repository. These resources include:
+
+- **Datasets**: Raw and processed data for the experiments discussed in the article.
+- **Notebooks**: Jupyter notebooks implementing the concepts covered in the article.
+- **Scripts**: Python files providing preprocessing or reusable utilities.
+- **Results**: Visualizations, metrics, or other outputs generated during the experiments.
+
+These resources ensure that readers can move seamlessly from theory to practice.
+
+## Documentation
+
+This project includes comprehensive documentation to ensure consistency and alignment. The following files are available in the `docs/` folder:
+
+- **Writing Guidelines for Articles**: [article-guideline.md](docs/article-guideline.md)  
+  Provides a detailed structure for creating consistent and professional articles.  
+- **General Style Guide**: [guideline.md](docs/guideline.md)  
+  Offers style and formatting guidelines for notebooks, scripts, and general development.  
+- **Roadmap**: [roadmap.md](docs/roadmap.md)  
+  Outlines the planned progression of the series, including future articles and milestones.  
+- **Strategy Document**: [strategy.md](docs/strategy.md)  
+  Describes how the articles, experiments, and repository structure align to deliver a cohesive learning experience.
 
 ## Setting Up the Environment
 
